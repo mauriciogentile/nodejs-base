@@ -1,7 +1,7 @@
 nodejs-base
 ===========
 
-```javascript
+```js
 
 //login in docker hub
 $ docker login
@@ -20,4 +20,11 @@ $ docker run -i -t mauriciogentile/nodejs-base
 function () {}
 ---
 [1, 2]
+
+// to list running container
+$ docker ps
+
+
+// to attach to the container
+$ docker attach <conainerId>
 ```
