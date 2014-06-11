@@ -1,7 +1,9 @@
 nodejs-base
 ===========
 
-//login in docker hu
+```javascript
+
+login in docker hu
 docker login
 
 // get the image
@@ -18,3 +20,4 @@ docker run -i -t mauriciogentile/nodejs-base
 function () {}
 ---
 [1, 2]
+```
